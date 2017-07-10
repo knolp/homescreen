@@ -1,0 +1,109 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(UbuntuMono-R.ttf);
+}
+@font-face {
+    font-family: ubuntu-b;
+    src: url(UbuntuMono-B.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	background-color: #2f343f;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap; 
+}
+
+.container {
+	height: 15em;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0em;
+}
+
+.media {
+	width: 23%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.unix {
+	width: 23%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gaming {
+	width: 23%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.programming {
+	width: 23%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	background-color: #499291;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	font-family: ubuntu;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	color: white;
+	width: 70%;
+}
+
+a {
+	width: 70%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 22px; 
+	background-color: #ffc858;
+	font-family: ubuntu-b;
+	padding: 0.1em;
+	color: #2f343f; 
+}
+
+a:hover {
+	background-color: #ffd06b;
+}
+
+.greeting {
+	width: 60%;
+	height: 12em;
+	margin-bottom: -20em;
+	margin-top: 1em;
+}
+
+.greeting h2 {
+	font-size: 130px;
+	text-align: center;
+	font-family: ubuntu;
+	color: white;
+
+}
